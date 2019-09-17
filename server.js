@@ -10,8 +10,8 @@ app.use(express.static(__dirname + '/build'));
 
 
 const options = {
-  key: fs.readFileSync(path.join(__dirname, '/ssl/2_www.yingxitech.com.key')),
-  cert: fs.readFileSync(path.join(__dirname, '/ssl/1_www.yingxitech.com_bundle.crt'))
+  key: fs.readFileSync(path.join(__dirname, '/ssl/2_henanbisai.com.key')),
+  cert: fs.readFileSync(path.join(__dirname, '/ssl/1_henanbisai.com_bundle.crt'))
 };
 
 const server = https.createServer(options, app);

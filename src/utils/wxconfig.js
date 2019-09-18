@@ -42,7 +42,7 @@ const jsApiList = [
 
 export default async function () {
   try {
-    const res = await fetch('https://localhost:5000/wxconfig', {
+    const res = await fetch('https://www.yingxitech.com/wxconfig', {
       method: 'POST',
       body: JSON.stringify({
         timestamp: Date.now(),
